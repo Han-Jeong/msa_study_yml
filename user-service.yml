@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/msa_user_service?useSSL=true&useUnicode=true&serverTimezone=Asia/Seoul
     username: root
-    password: springproject
+    password: '{cipher}99c0ff0a40e58d60b191479163214bf684d6a07f37d82de97f6824373973c21e'
     driver-class-name: com.mysql.cj.jdbc.Driver
 token:
   expiration_time: 86300000

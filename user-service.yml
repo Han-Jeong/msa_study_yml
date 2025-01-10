@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/msa_user_service?useSSL=true&useUnicode=true&serverTimezone=Asia/Seoul
     username: root
-    password: '{cipher}99c0ff0a40e58d60b191479163214bf684d6a07f37d82de97f6824373973c21e'
+    password: '{cipher}AQCdIBl0Ff/1VCttRVr2rS0CgcMwoLJu6RWqw3nLRbmJTpTAQDQeewxM2/2xONt1cCC9u616RTz0fnxv/ecOmksw9CQKLA2BqRMN1W7uvhPpTqOmDr3fO+a5ZfZ6OQHYSjd9CNgEb1ftdzVyMU6cL+wsmf9/OAtfeawno7iFqMLJ2zPcgasOVbjbRK/zVeuJ1llkh8w/OheCKZeIccVos1nM+SyJiJsu+xRRMOA80Kqq9f8e7kpyt/v5psWNsqqPItMy2qc9tZsqHvDLoWrpo4eL9q4TtYSrj4qyfmsB9iw3SRIpQAkwTv8xeqmUCDltp4g60zFY/vAVu1QeqQ5+4L57joOadX0bEoK2JWCyrPnnt2WKzWXDrUUxtkugVLXvc6Q='
     driver-class-name: com.mysql.cj.jdbc.Driver
 token:
   expiration_time: 86300000

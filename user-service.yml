@@ -6,6 +6,6 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 order-service:
-  url: http://order-service/order-service/%s/orders
+  url: http://ORDER-SERVICE/order-service/%s/orders
 
 

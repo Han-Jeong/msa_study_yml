@@ -5,4 +5,7 @@ spring:
     password: '{cipher}AQCdIBl0Ff/1VCttRVr2rS0CgcMwoLJu6RWqw3nLRbmJTpTAQDQeewxM2/2xONt1cCC9u616RTz0fnxv/ecOmksw9CQKLA2BqRMN1W7uvhPpTqOmDr3fO+a5ZfZ6OQHYSjd9CNgEb1ftdzVyMU6cL+wsmf9/OAtfeawno7iFqMLJ2zPcgasOVbjbRK/zVeuJ1llkh8w/OheCKZeIccVos1nM+SyJiJsu+xRRMOA80Kqq9f8e7kpyt/v5psWNsqqPItMy2qc9tZsqHvDLoWrpo4eL9q4TtYSrj4qyfmsB9iw3SRIpQAkwTv8xeqmUCDltp4g60zFY/vAVu1QeqQ5+4L57joOadX0bEoK2JWCyrPnnt2WKzWXDrUUxtkugVLXvc6Q='
     driver-class-name: com.mysql.cj.jdbc.Driver
 
+order-service:
+  url: http://127.0.0.1:8000/order-service/%s/orders
+
 

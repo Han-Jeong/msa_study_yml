@@ -7,5 +7,7 @@ spring:
 
 order-service:
   url: http://ORDER-SERVICE/%s/orders
+  exception:
+    orders_is_empty: User's Order is empty
 
 
